@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Type */
+body {
+  background-color: #0e020b;
+  color: #C0C0C0 !important;
+}
+
+nav{
+  background-color:#0D0D0D;
+}
+
+p {
+  font-size: calc(1em + 1vw) !important; 
+}
+
+footer {
+  height: 10vh;
+  background-color: #0D0D0D;
+  color: #C0C0C0;
+}
+
+
+img{
+  height: 20vh;
+}
+
+header{
+  height: 100vh; 
+}
+
+section,header{
+  background-color:#15152ca6 !important;
+}
+
+/*class*/
+
+.contentbg {
+  background: #002d3f !important;
+}
+
+.white {
+  color: #C0C0C0 !important;
+}
+
+.purple{
+  color: #9a1179  !important;
+}
+
+
+.banner-inside{
+  font-family: 'Roboto', bold;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.banner-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.perfil-img {
+  object-fit: cover;
+  height: 50vh;
+}
+
+.cover-img {
+  object-fit:cover;
+  object-position: 50% 90%;
+}
+
+
+/* id */
+#about, #projects, #hobbies, #experience {
+  scroll-margin-top: 4rem;
+}
